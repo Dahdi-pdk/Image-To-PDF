@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background image -->
+    <item>
+        	<ImageView
+    android:layout_width="120dp"
+    android:layout_height="120dp"
+    android:scaleType="centerCrop"
+    android:src="@drawable/ikon" />
+    </item>
+
+    <!-- Rounded corner mask -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="16dp"/>
+            <solid android:color="#FFFFFFFF"/>
+        </shape>
+    </item>
+
+</layer-list>

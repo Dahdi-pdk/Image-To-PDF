@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Image to PDF</string>
+    
+    <!-- Activity Titles -->
+    <string name="setup_activity_title">Atur Konversi</string>
+    <string name="finish_activity_title">Konversi Selesai</string>
+    <string name="about_activity_title">Tentang Aplikasi</string>
+    
+    <!-- MainActivity -->
+    <string name="main_welcome">Selamat Datang di Image to PDF</string>
+    <string name="main_description">Konversi gambar Anda menjadi dokumen PDF dengan mudah dan cepat sehingga anda punya banyak waktu untuk menulis laprak</string>
+    <string name="btn_select_images">Pilih Gambar</string>
+    <string name="btn_about">😊 Tentang Aplikasi</string>
+    <string name="instructions_title">Petunjuk Penggunaan</string>
+    <string name="instructions_step1">1. Tekan tombol \'Pilih Gambar\' untuk memilih foto</string>
+    <string name="instructions_step2">2. Pilih satu atau lebih gambar dari galeri</string>
+    <string name="instructions_step3">3. Atur kompresi dan ukuran sesuai kebutuhan</string>
+    <string name="instructions_step4">4. Tekan \'Mulai Konversi\' dan tunggu prosesnya selesai</string>
+    <string name="instructions_step5">5. PDF siap dibagikan atau dibuka</string>
+    
+    <!-- SetupActivity -->
+    <string name="setup_images_selected">Gambar Terpilih: %d</string>
+    <string name="setup_compression_title">Pengaturan Kompresi</string>
+    <string name="setup_compression_level">Level Kompresi</string>
+    <string name="setup_compression_quality">Kualitas: %d%%</string>
+    <string name="setup_estimated_size">Estimasi ukuran: ~%s</string>
+    <string name="setup_grayscale">Konversi ke Grayscale (Hitam-Putih)</string>
+    <string name="setup_remove_metadata">Hapus Metadata Gambar</string>
+    
+    <string name="setup_image_size_title">Pengaturan Ukuran Gambar</string>
+    <string name="setup_image_width">Lebar Gambar di PDF</string>
+    <string name="setup_width_value">%.1f cm</string>
+    <string name="setup_width_info">Lebar gambar dalam PDF (0.5cm - 10cm)</string>
+    
+    <string name="setup_visual_title">Elemen Visual (Opsional)</string>
+    <string name="setup_show_all">Tampilkan Semua Informasi</string>
+    <string name="setup_show_borders">Tampilkan Border Gambar</string>
+    <string name="setup_show_dimensions">Tampilkan Dimensi (cm)</string>
+    <string name="setup_show_row">Tampilkan Info Baris</string>
+    <string name="setup_show_resolution">Tampilkan Resolusi (px)</string>
+    <string name="setup_show_scale">Tampilkan Faktor Skala</string>
+    
+    <string name="btn_start_conversion">Mulai Konversi</string>
+    <string name="btn_reselect_images">Pilih Ulang Gambar</string>
+    
+    <!-- Progress Dialog -->
+    <string name="progress_title">Sedang Memproses</string>
+    <string name="progress_message">Mohon tunggu, PDF sedang dibuat…</string>
+    <string name="progress_percentage">%d%%</string>
+    <string name="progress_cancel">Batal</string>
+    
+    <!-- FinishActivity -->
+    <string name="finish_success_title">✓ Konversi Berhasil!</string>
+    <string name="finish_file_info">Informasi File</string>
+    <string name="finish_filename">Nama File:</string>
+    <string name="finish_location">Lokasi:</string>
+    <string name="finish_size">Ukuran:</string>
+    <string name="finish_pages">Jumlah Halaman:</string>
+    
+    <string name="btn_open_folder">Buka Folder</string>
+    <string name="btn_open_pdf">Buka PDF</string>
+    <string name="btn_share_pdf">Bagikan PDF</string>
+    <string name="btn_convert_more">Konversi Lagi</string>
+    
+    <!-- AboutActivity -->
+    <string name="about_app_title">Image to PDF Converter</string>
+    <string name="about_version">Versi 1.0</string>
+    <string name="about_description">Aplikasi konversi gambar ke PDF yang mudah dan cepat. Mendukung kompresi, pengaturan ukuran, dan berbagai fitur kustomisasi.</string>
+    <string name="about_features_title">Fitur Utama:</string>
+    <string name="about_feature1">• Konversi multiple gambar sekaligus</string>
+    <string name="about_feature2">• 5 level kompresi (None - Maximum)</string>
+    <string name="about_feature3">• Pengaturan ukuran gambar dalam PDF</string>
+    <string name="about_feature4">• Konversi Grayscale opsional</string>
+    <string name="about_feature5">• Hapus metadata untuk privasi</string>
+    <string name="about_feature6">• Tak perlu buka aplikasi rich text editor(canva, word, dan wps) dan atur foto satu persatu</string>
+	<string name="about_feature7">• Dibuat untuk merigankan beban anak kimia UIN(walapun sedikit)</string>   
+	<string name="about_developer">Dikembangkan oleh:</string>
+    <string name="about_developer_name">Orang Gabut</string>
+    <string name="about_contact_title">Kontak &amp; Media Sosial:</string>
+    <string name="btn_email">Email</string>
+    <string name="btn_github">GitHub</string>
+    <string name="btn_instagram">Instagram</string>
+    
+    <!-- Messages -->
+    <string name="msg_no_images_selected">Tidak ada gambar yang dipilih</string>
+    <string name="msg_permission_required">Izin akses storage diperlukan</string>
+    <string name="msg_conversion_started">Konversi dimulai…</string>
+    <string name="msg_conversion_cancelled">Konversi dibatalkan</string>
+    <string name="msg_conversion_failed">Konversi gagal: %s</string>
+    <string name="msg_pdf_saved">PDF tersimpan!</string>
+    <string name="msg_no_pdf_viewer">Tidak ada aplikasi PDF viewer</string>
+    <string name="msg_share_title">Bagikan PDF</string>
+    
+    <!-- File Paths -->
+    <string name="default_pdf_folder">Documents/ImageToPDF</string>
+    
+</resources>

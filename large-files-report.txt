@@ -1,0 +1,5 @@
+﻿Laporan file lebih besar dari 100 MB
+Repository: C:\Users\dahdi\OneDrive\Documents\Dahdi\SharedFolder
+Ambang batas: 100 MB
+
+Tidak ditemukan file lebih besar dari 100 MB.
